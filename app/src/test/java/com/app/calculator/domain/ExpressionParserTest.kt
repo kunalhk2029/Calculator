@@ -12,13 +12,13 @@ class ExpressionParserTest{
 
     @Test
     fun `Expression is properly parsed`(){
-        // 1. GIVEN / System in test
+        //System in test
         parser = ExpressionParser("3+5-3x4/3")
 
-        // 2. Execute System / DO SOMETHING WITH WHAT'S GIVEN
+        //Execute System
         val actual = parser.parse()
 
-        // 3. ASSERT EXPECTED == ACTUAL
+        //ASSERT EXPECTED == ACTUAL
         val expected = listOf(
             ExpressionPart.Number(3.0),
             ExpressionPart.Op(Operation.ADD),

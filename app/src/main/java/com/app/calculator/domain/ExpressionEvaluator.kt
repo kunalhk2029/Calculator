@@ -80,7 +80,7 @@ class ExpressionEvaluator(
                     ExpressionResult(remainingExpression.drop(1), value)
                 }
             }
-            ExpressionPart.Op(Operation.PERCENT) -> evalTerm(expression.drop(1))
+//            ExpressionPart.Op(Operation.PERCENT) -> evalTerm(expression.drop(1))
             is ExpressionPart.Number -> ExpressionResult(
                 remainingExpression = expression.drop(1),
                 value = part.number
