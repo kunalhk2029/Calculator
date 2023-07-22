@@ -1,7 +1,5 @@
-package com.app.calculator.domain
+package com.kunalhk2029.calculator.domain
 
-import org.hamcrest.MatcherAssert.assertThat
-import org.junit.Assert
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.app.calculator.domain
+package com.kunalhk2029.calculator.domain
 
 sealed interface CalculatorAction{
     data class Number(val number: Int):CalculatorAction

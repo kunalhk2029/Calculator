@@ -8,7 +8,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.app.calculator"
+        applicationId "com.kunalhk2029.calculator"
         minSdk 23
         targetSdk 33
         versionCode 1

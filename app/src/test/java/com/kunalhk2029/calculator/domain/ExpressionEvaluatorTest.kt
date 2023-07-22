@@ -1,4 +1,4 @@
-package com.app.calculator.domain
+package com.kunalhk2029.calculator.domain
 
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test

@@ -1,4 +1,4 @@
-package com.app.calculator.domain
+package com.kunalhk2029.calculator.domain
 
 sealed interface ExpressionPart {
     data class Number(val number: Double): ExpressionPart

@@ -1,4 +1,4 @@
-package com.app.calculator.domain
+package com.kunalhk2029.calculator.domain
 
 class ExpressionWriter {
 
@@ -38,7 +38,6 @@ class ExpressionWriter {
         }
     }
 
-
     private fun prepareForCalculation(): String {
         val newExpression = expression.dropLastWhile {
             it in "$operationSymbols(."
@@ -71,8 +70,8 @@ class ExpressionWriter {
     }
 
     private fun canEnterOperarion(operation: Operation): Boolean {
-        if (operation == Operation.ADD || operation == Operation.SUBTRACT) {
-            return expression.isEmpty() || expression.last() in "${operationSymbols}$allDigits()"
-        } else return expression.isNotEmpty() || expression.last() in "$allDigits)"
+        return if (operation == Operation.ADD || operation == Operation.SUBTRACT) {
+            expression.isEmpty() || expression.last() in "${operationSymbols}$allDigits()"
+        } else expression.isNotEmpty() && expression.last() in "$allDigits)"
     }
 }
