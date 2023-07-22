@@ -1,4 +1,4 @@
-package com.app.calculator.domain
+package com.kunalhk2029.calculator.domain
 
 enum class Operation(val symbol: Char) {
     ADD('+'),
