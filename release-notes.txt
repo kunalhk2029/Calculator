@@ -1,1 +1,2 @@
  Testing firebase app distribution via bitrise
+ Another release note for firebase app distribution via bitrise
