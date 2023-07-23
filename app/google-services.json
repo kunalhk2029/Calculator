@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "263930343622",
+    "project_id": "portfolioapps-2e448",
+    "storage_bucket": "portfolioapps-2e448.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263930343622:android:473ccd4e568301e32b67c7",
+        "android_client_info": {
+          "package_name": "com.kunalhk2029.calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263930343622-un5qcn2fkgf5v64r823s9jl6tcp8qg3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbjMvy2fa4hh0qqwYYyDJLrxO_0Q61gV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263930343622-un5qcn2fkgf5v64r823s9jl6tcp8qg3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
