@@ -1,0 +1,1 @@
+ Testing firebase app distribution via bitrise
